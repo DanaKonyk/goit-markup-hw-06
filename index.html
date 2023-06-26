@@ -14,11 +14,12 @@
     integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/media.css" />
   <title>WebStudio</title>
 </head>
 
 <body>
-  <header class="header">
+  <!-- <header class="header">
     <div class="container header-container">
       <nav class="navigation">
         <a class="page-logo link" href="./index.html">Web<span class="header-logo-studio">Studio</span></a>
@@ -36,15 +37,15 @@
         </ul>
       </address>
     </div>
-  </header>
+  </header> -->
   <main>
     <!-- Hero -->
-    <section class="hero">
+    <!-- <section class="hero">
       <div class="container">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button type="button" class="hero-btn" data-modal-open>Order Service</button>
       </div>
-    </section>
+    </section> -->
     <!-- content -->
     <section class="advantages">
       <div class="container">
@@ -107,13 +108,16 @@
         <h2 class="products-title">What are we doing</h2>
         <ul class="products-list list">
           <li class="products-item">
-            <img src="./images/img1-2.jpg" alt="computer" width="360" height="321" />
+            <img srcset="./images/img1-2.jpg 1x,
+            ./images/img1-2x.jpg 2x" src="./images/img1-2.jpg" alt="computer" width="360" height="321" />
           </li>
           <li class="products-item">
-            <img src="./images/img2-2.jpg" alt="phone screens" width="360" height="321" />
+            <img srcset="./images/img2-2.jpg 1x,
+            ./images/img2-2x.jpg 2x" src="./images/img2-2.jpg" alt="phone screens" width="360" height="321" />
           </li>
           <li class="products-item">
-            <img src="./images/img3-2.jpg" alt="mobile phone" width="360" height="321" />
+            <img srcset="./images/img3-2.jpg 1x,
+            ./images/img3-2x.jpg 2x" src="./images/img3-2.jpg" alt="mobile phone" width="360" height="321" />
           </li>
         </ul>
       </div>
@@ -124,7 +128,8 @@
         <h2 class="team-title">Our Team</h2>
         <ul class="team-list list">
           <li class="team-item">
-            <img src="./images/img11.jpg" alt="Mark Guerrero" width="264" height="260" />
+            <img srcset="./images/img11.jpg 1x,
+            ./images/img11-2x.jpg 2x" src="./images/img11.jpg" alt="Mark Guerrero" width="264" height="260" />
             <div class="team-item-description">
               <h3 class="team-subtitle">Mark Guerrero</h3>
               <p class="team-text">Product Designer</p>
@@ -149,7 +154,8 @@
             </div>
           </li>
           <li class="team-item">
-            <img src="./images/img12.jpg" alt="Tom Ford" width="264" height="260" />
+            <img srcset="./images/img12.jpg 1x,
+            ./images/img12-2x.jpg 2x" src="./images/img12.jpg" alt="Tom Ford" width="264" height="260" />
             <div class="team-item-description">
               <h3 class="team-subtitle">Tom Ford</h3>
               <p class="team-text">Frontend Developer</p>
@@ -170,7 +176,8 @@
             </div>
           </li>
           <li class="team-item">
-            <img src="./images/img13.jpg" alt="Camila Garcia" width="264" height="260" />
+            <img srcset="./images/img13.jpg 1x,
+            ./images/img13-2x.jpg 2x" src="./images/img13.jpg" alt="Camila Garcia" width="264" height="260" />
             <div class="team-item-description">
               <h3 class="team-subtitle">Camila Garcia</h3>
               <p class="team-text">Marketing</p>
@@ -191,7 +198,8 @@
             </div>
           </li>
           <li class="team-item">
-            <img src="./images/img14.jpg" alt="Daniel Wilson" width="264" height="260" />
+            <img srcset="./images/img14.jpg 1x,
+            ./images/img14-2x.jpg 2x" src="./images/img14.jpg" alt="Daniel Wilson" width="264" height="260" />
             <div class="team-item-description">
               <h3 class="team-subtitle">Daniel Wilson</h3>
               <p class="team-text">UI Designer</p>
@@ -265,7 +273,7 @@
       </div>
     </section>
   </main>
-  <footer class="footer">
+  <!-- <footer class="footer">
     <div class="footer-container container">
       <div class="footer-block">
         <a class="page-logo down link" href="./index.html">Web<span class="footer-logo-studio">Studio</span></a>
@@ -307,9 +315,9 @@
         </form>
       </div>
     </div>
-  </footer>
+  </footer> -->
   <!-- modal -->
-  <div class="backdrop is-hidden" data-modal>
+  <!-- <div class="backdrop is-hidden" data-modal>
     <div class="modal">
       <button type="button" class="modal-btn" data-modal-close><svg class="modal-btn-icon" width="8" height="8">
           <use href="./images/icons.svg#icon-close-button"></use>
@@ -360,7 +368,7 @@
         <button type="submit" class="form-btn">Send</button>
       </form>
     </div>
-  </div>
+  </div> -->
   <script src="./js/modal.js"></script>
 </body>
 
