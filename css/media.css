@@ -1,6 +1,14 @@
 @media screen and (max-width: 427px) {
+    .tel-address-link {
+        font-size: 25px;
+    }
+
     .mob-icon-list {
         gap: 30px;
+    }
+
+    .modal {
+        width: 310px;
     }
 }
 
@@ -136,6 +144,10 @@
 
     .team-item {
         width: calc((100% - 24px) / 2);
+    }
+
+    .customers-container {
+        width: 584px;
     }
 
     .customers-list {
