@@ -311,7 +311,9 @@
     }
 
     .footer-container {
-        flex-wrap: unset;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-left: auto;
     }
 
     .footer-text {
@@ -327,4 +329,5 @@
         width: unset;
         margin-left: 80px;
     }
+
 }
